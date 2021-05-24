@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Cinema Rocket" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Cinema Rocket" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="includes" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Cinema Rocket" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="includes" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Cliente.cpp" />
+		<Unit filename="Entrada.cpp" />
+		<Unit filename="Fecha.cpp" />
+		<Unit filename="Funcion.cpp" />
+		<Unit filename="Hora.cpp" />
+		<Unit filename="Pelicula.cpp" />
+		<Unit filename="Venta.cpp" />
+		<Unit filename="funcionesGenerales.cpp" />
+		<Unit filename="includes/Cliente.h" />
+		<Unit filename="includes/Entrada.h" />
+		<Unit filename="includes/Fecha.h" />
+		<Unit filename="includes/Funcion.h" />
+		<Unit filename="includes/Hora.h" />
+		<Unit filename="includes/Pelicula.h" />
+		<Unit filename="includes/Venta.h" />
+		<Unit filename="includes/funcionesGenerales.h" />
+		<Unit filename="includes/rlutil.h" />
+		<Unit filename="includes/sectorClientes.h" />
+		<Unit filename="includes/sectorEmpleados.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
